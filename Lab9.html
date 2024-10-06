@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Lab9.css">
+</head>
+<body>
+    <div class="ventana-chat">
+        <h2>Chat Entre Amigos</h2>
+        <div id="contenedorMensajes" class="contenedor-mensajes"></div>
+        
+        <div class="contenedor-input">
+            <div class="caja-usuario">
+                <img src="https://cdn-icons-png.flaticon.com/512/4333/4333609.png" class="icono-usuario" alt="Amigo Uno">
+                <form id="formAmigoUno">
+                    <input type="text" id="mensajeAmigoUno" placeholder="Mensaje Usuario Azul">
+                    <button type="submit" class="btn-amigo-uno">Enviar</button>
+                </form>
+            </div>
+            <div class="caja-usuario">
+                <img src="https://cdn-icons-png.flaticon.com/512/1154/1154448.png" class="icono-usuario" alt="Amigo Dos">
+                <form id="formAmigoDos">
+                    <input type="text" id="mensajeAmigoDos" placeholder="Mensaje Usuario Rojo">
+                    <button type="submit" class="btn-amigo-dos">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <button id="reiniciarChat" class="btn-reinicio">Reiniciar Chat</button>
+    </div>
+
+    <script src="./Lab9.js"></script>
+</body>
+</html>
